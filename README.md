@@ -32,13 +32,13 @@ add_keys_api.sh – добавление номеров карт в домофоны Beward, True-ip, Bas-ip.
 
  Варианты API-запроса:
 
- [1] Beward DKS850174 'http://172.26.14.*/cgi-bin/rfid_cgi?action=add&Key='
+ [1] Beward DKS850174 'http://192.168.1.*/cgi-bin/rfid_cgi?action=add&Key='
 
- [2] Beward DKS15198 'http://172.26.14.*/cgi-bin/mifare_cgi?action=add&Key=&Type=1'
+ [2] Beward DKS15198 'http://192.168.1.*/cgi-bin/mifare_cgi?action=add&Key=&Type=1'
 
- [3] True-IP TI-2400 'http://172.26.14.*/cgi-bin/recordUpdater.cgi?action=insert&name=AccessControlCard&CardName=123&CardNo=&UserID=vezdehod&CardStatus=0&CardType=0'
+ [3] True-IP TI-2400 'http://192.168.1.*/cgi-bin/recordUpdater.cgi?action=insert&name=AccessControlCard&CardName=123&CardNo=&UserID=vezdehod&CardStatus=0&CardType=0'
 
- [4] BAS-IP 'http://172.26.14.*/api/v1/access/identifier'
+ [4] BAS-IP 'http://192.168.1.*/api/v1/access/identifier'
 
  ==> Выберите вариант API-запроса: 3
 
